@@ -79,7 +79,7 @@ export default function(chatter) {
     });
 
 
-    chatter.getPanel('right').addPage(plugin, new Page(1, PluginsEnable));
+    chatter.getPanel('right').addPage(plugin, new Page('pluginenable', 1, PluginsEnable));
   }
 
 
