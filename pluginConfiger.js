@@ -5,10 +5,10 @@ export default function(chatter) {
     var self = this;
 
 
-
-    chatter.pluginManager.registerEvent(this, "AfterAuthEvent", function(event) {
-      setup(self);
-    });
+    setup(this);
+    // chatter.pluginManager.registerEvent(this, "AfterAuthEvent", function(event) {
+    //   setup(self);
+    // });
 
 
   };
